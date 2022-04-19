@@ -1,0 +1,17 @@
+// install django  & gunicorn & dj_database_url & psycopg2 & dj3-cloudinary-storage
+pip3 install django gunicorn dj_database_url psycopg2 dj3-cloudinary-storage
+
+// create app
+python manage.py startapp <APP_NAME>
+
+// migrate changes
+python manage.py migrate
+
+// run django server
+python manage.py runserver
+
+// Quit the server
+CTRL + c
+
+// create requirements.txt
+pip3 freeze --local > requirements.txt
